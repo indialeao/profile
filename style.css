@@ -1,10 +1,12 @@
 body {
-  background-color: rgb(251, 236, 245);
+  /* background-color: rgb(251, 236, 245); */
+  background-image: url("../profile/images/\ .jpg");
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(226, 89, 155);
   font-size:35px ;
   line-height: 50px;
 }
+
 
 h1, h2, h3 {
   color:  rgb(246, 49, 115);
@@ -15,10 +17,16 @@ h1, h2, h3 {
 
 a {
   color: rgb(238, 233, 240);
-  border: 2px solid rgb(143, 20, 181);
+  border: 2px solid rgb(20, 47, 181);
   border-radius: 10px;
   padding: 4px;
-  background-color: rgb(143, 20, 181);
+  background-color: rgb(20, 41, 181);
+  text-align: center;
+}
+
+#link {
+  background-color: rgb(17, 116, 197);
+  text-decoration: none;
 }
 
 #image {
@@ -33,15 +41,16 @@ a {
   border-radius: 15px;
   text-align: center;
   background-color:rgb(249, 216, 236);
-  padding: 30px;
-  box-shadow: 5px 5px 7px rgb(189, 68, 127);
-  margin-left: 50%;
-  margin: 50px auto;
+  padding: 40px;
+  box-shadow: 5px 5px 7px rgb(189, 68, 68);
+  margin: 70px auto;
+
 }
 
 ul li{
   display: inline-flex;
   padding: 4px;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
@@ -61,3 +70,12 @@ ul li{
   }
 }
 
+.social {
+  border: 2px solid rgb(213, 40, 135);
+  text-align: center;
+  background-color: rgb(213, 40, 135);
+
+  h3 {
+    color: white;
+  }
+}
