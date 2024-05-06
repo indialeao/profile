@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(251, 236, 245);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(226, 89, 155);
+  font-size:35px ;
+  line-height: 50px;
+}
+
+h1, h2, h3 {
+  color:  rgb(246, 49, 115);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  line-height: 50px;
+}
+
+a {
+  color: rgb(238, 233, 240);
+  border: 2px solid rgb(143, 20, 181);
+  border-radius: 10px;
+  padding: 4px;
+  background-color: rgb(143, 20, 181);
+}
+
+#image {
+  height: 500px;
+  width: 500px;
+  border-radius: 250px;
+}
+
+.card {
+  width: 50%;
+  border: 2px solid rgb(213, 40, 135);
+  border-radius: 15px;
+  text-align: center;
+  background-color:rgb(249, 216, 236);
+  padding: 30px;
+  box-shadow: 5px 5px 7px rgb(189, 68, 127);
+  margin-left: 50%;
+  margin: 50px auto;
+}
+
+ul li{
+  display: inline-flex;
+  padding: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  #image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
